@@ -20,6 +20,7 @@ specifiers:
   svelte-preprocess: ^4.10.1
   tslib: ^2.3.1
   typescript: ~4.6.2
+  vite-plugin-svelte-inspector: ^0.2.1
 
 dependencies:
   '@fontsource/fira-mono': 4.5.8
@@ -43,6 +44,7 @@ devDependencies:
   svelte-preprocess: 4.10.6_wwvk7nlptlrqo2czohjtk6eiqm
   tslib: 2.4.0
   typescript: 4.6.4
+  vite-plugin-svelte-inspector: 0.2.1_svelte@3.48.0
 
 packages:
 
@@ -2209,6 +2211,14 @@ packages:
 
   /v8-compile-cache/2.3.0:
     resolution: {integrity: sha512-l8lCEmLcLYZh4nbunNZvQCJc5pv7+RCwa8q/LdUx8u7lsWvPDKmpodJAJNwkAhJC//dFY48KuIEmjtd4RViDrA==}
+    dev: true
+
+  /vite-plugin-svelte-inspector/0.2.1_svelte@3.48.0:
+    resolution: {integrity: sha512-P1aZNFf+CSwywO4CfJa7jVjpXtLbJXfSSFcIm918+/T1OwiNVlXqxPnTx4xhmeF6M709xoTBKEy/NOydlsR4iw==}
+    peerDependencies:
+      svelte: ^3.44.0
+    dependencies:
+      svelte: 3.48.0
     dev: true
 
   /vite/2.9.9:

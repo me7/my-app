@@ -1,5 +1,6 @@
 import adapter from '@sveltejs/adapter-node';
 import preprocess from 'svelte-preprocess';
+import Inspector from 'vite-plugin-svelte-inspector';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -13,7 +14,10 @@ const config = {
 		// Override http methods in the Todo forms
 		methodOverride: {
 			allowed: ['PATCH', 'DELETE']
-		}
+		},
+		vite: {
+      // plugins: [Inspector()],
+    },
 	}
 };
 
