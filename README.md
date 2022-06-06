@@ -9,7 +9,7 @@ cd my-app
 pnpm i
 pnpm dev
 ```
-- install and test prisma
+- install and test prisma [ref](https://www.prisma.io/docs/getting-started/setup-prisma/add-to-existing-project)
 ```
 pnpm i -D prisma
 pnpx prisma init

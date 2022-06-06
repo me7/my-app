@@ -1,14 +1,11 @@
-<script context="module" lang="ts">
-	export const prerender = true;
-</script>
 
 <script lang="ts">
-	import Counter from '$lib/Counter.svelte';
+
 </script>
 
 <svelte:head>
-	<title>Home</title>
-	<meta name="description" content="Svelte demo app" />
+	<title>OP4 Home</title>
+	<meta name="description" content="Op4 App main page" />
 </svelte:head>
 
 <a href="https://github.com/me7/my-app/">Repo</a>
