@@ -1,3 +1,28 @@
+# OP4 web using svelteKit + Prisma + sqlite3
+
+## step
+- install and test svelteKit
+```
+npm init svelte my-app
+cd my-app
+pnpm i
+pnpm dev
+```
+- install and test prisma
+```
+pnpm i -D prisma
+pnpx prisma init
+// edit .env and schema.prisma
+pnpx prisma db pull
+// install prisma extension for syntax highlight
+```
+- gen prima client
+```
+pnpm i @prisma/client
+pnpx prisma generate
+
+```
+
 # create-svelte
 
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
